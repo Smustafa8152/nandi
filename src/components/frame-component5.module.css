@@ -1,0 +1,65 @@
+.frameChild {
+  height: 143.2px;
+  width: 565px;
+  position: relative;
+  box-shadow: 0 8px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.worldwideIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.globalConnect {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.globalConnectWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 0 0;
+}
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 8px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 43px 57px 44.2px;
+  box-sizing: border-box;
+  gap: 50px;
+  min-width: 367px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1100px) {
+  .rectangleParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .globalConnect {
+    font-size: 19px;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}

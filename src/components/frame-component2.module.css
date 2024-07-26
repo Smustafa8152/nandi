@@ -1,0 +1,132 @@
+
+.asset11 {
+  height: 35px;
+  width: 279px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.portfolio {
+  left: 0;
+  min-width: 75px;
+}
+.founders,
+.investors,
+.news,
+.ourFocus,
+.portfolio,
+.team {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+}
+.ourFocus {
+  left: 97px;
+  min-width: 89px;
+  white-space: nowrap;
+}
+
+.active {
+  color: red !important;
+}
+.founders,
+.investors,
+.news,
+.team {
+  left: 208px;
+  min-width: 82px;
+}
+.investors,
+.news,
+.team {
+  left: 312px;
+  min-width: 81px;
+}
+.news,
+.team {
+  left: 415px;
+  min-width: 48px;
+}
+.news {
+  left: 485px;
+  color: inherit;
+  min-width: 49px;
+}
+.navigationLinks {
+  margin: 0;
+  align-self: stretch;
+  height: 22px;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Inter;
+}
+.navigationLinksWrapper {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 38px;
+  width: 142px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.asset11Parent,
+.frameParent,
+.frameWrapper,
+.teamInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 704px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.asset11Parent,
+.teamInner {
+  flex-direction: row;
+}
+.asset11Parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.teamInner {
+  z-index: 100;
+  width: 1421px;
+  justify-content: flex-end;
+  padding: 0 63px 18px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1100px) {
+  .navigationLinksWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .teamInner {
+    padding-left: 31px;
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+}

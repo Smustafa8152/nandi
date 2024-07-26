@@ -1,0 +1,39 @@
+.industry {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+}
+.industryWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+}
+.formFieldsRowsChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #c8bebe;
+  z-index: 2;
+}
+.formFieldsRows {
+  align-self: stretch;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: 20px;
+  color: #e4e4e4;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .industry {
+    font-size: 16px;
+  }
+}

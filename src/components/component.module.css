@@ -1,0 +1,142 @@
+.copyright {
+  line-height: 22px;
+  display: none;
+}
+.bg,
+.copyright,
+.layer2Icon {
+  position: relative;
+}
+.bg {
+  height: 142px;
+  width: 1440px;
+  background-color: #000;
+  display: none;
+  max-width: 100%;
+}
+.layer2Icon {
+  height: 35.7px;
+  width: 238px;
+  object-fit: contain;
+  z-index: 3;
+}
+.founders,
+.investors,
+.news,
+.ourFocus,
+.portfolio,
+.team {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 3;
+}
+.founders,
+.investors,
+.news,
+.ourFocus,
+.team {
+  min-width: 89px;
+}
+.founders,
+.investors,
+.news,
+.team {
+  min-width: 82px;
+}
+.investors,
+.news,
+.team {
+  min-width: 81px;
+}
+.news,
+.team {
+  min-width: 48px;
+}
+.news {
+  min-width: 49px;
+}
+.footerNavigationLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footerNavigationLinksWrapper {
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.8px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+.emptyContentIcon,
+.emptyContentIcon1,
+.emptyContentIcon2,
+.emptyContentIcon3 {
+  height: 25.2px;
+  width: 25.2px;
+  position: relative;
+  min-height: 25px;
+  z-index: 3;
+}
+.emptyContainer,
+.emptyContainerWrapper,
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyContainer {
+  flex-direction: row;
+  gap: 10.8px;
+}
+.emptyContainerWrapper,
+.footer {
+  flex-direction: column;
+  padding: 5.2px 0 0;
+}
+.footer {
+  align-self: stretch;
+  background-color: #000;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 138px 56.3px 115px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 2;
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerNavigationLinks {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-left: 57px;
+    padding-right: 69px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

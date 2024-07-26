@@ -1,0 +1,39 @@
+.industryNewsItemsChild {
+  align-self: stretch;
+  height: 236px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dayBootCamp,
+.industriNews {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -1px;
+  line-height: 31px;
+  font-weight: 500;
+}
+.dayBootCamp {
+  font-size: 18px;
+  color: #fff;
+}
+.industriNewsParent,
+.industryNewsItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.industriNewsParent {
+  align-self: stretch;
+}
+.industryNewsItems {
+  gap: 13px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 12px;
+  color: #fd5104;
+  font-family: Inter;
+}

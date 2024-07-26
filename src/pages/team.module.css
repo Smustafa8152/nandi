@@ -1,0 +1,375 @@
+.teamMemberDetails {
+  width: 93px;
+  height: 36px;
+}
+.ourTeam {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.teamMemberRow {
+  gap: 22px;
+}
+.teamMemberGrid,
+.teamMemberRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.teamMemberGridWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.teamMemberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.653);
+}
+.wrapperTeamMemberImage {
+  position: absolute;
+  top: 21px;
+  left: -343px;
+  width: 885px;
+  height: 613px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageWrapperChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -434px;
+  max-height: 100%;
+  width: 764px;
+  z-index: 1;
+}
+.imageWrapper {
+  height: 764px;
+  width: 542px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -448px;
+  left: -154px;
+}
+.teamMemberBioChild {
+  height: 479px;
+  width: 1134px;
+  position: relative;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  background-color: #191919;
+  display: none;
+  max-width: 100%;
+}
+.unsplash8yg31xn4dswIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 321px;
+  height: 364px;
+  object-fit: cover;
+}
+.coFounderAndOperating,
+.vikasKatragadda {
+  position: relative;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.coFounderAndOperating {
+  align-self: stretch;
+  font-size: 12px;
+  text-align: center;
+}
+.icon,
+.icon1,
+.icon2,
+.icon3 {
+  height: 25.2px;
+  width: 25.2px;
+  position: relative;
+  min-height: 25px;
+}
+.socialLinkContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10.8px;
+}
+.memberInfoContainer,
+.memberSocialLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 29px;
+}
+.memberInfoContainer {
+  position: absolute;
+  top: 280px;
+  left: 28px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  background-color: #1e293b;
+  width: 269px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 14px 38px 17.8px;
+  box-sizing: border-box;
+  gap: 8.5px;
+  z-index: 1;
+}
+.unsplash8yg31xn4dswParent {
+  height: 398px;
+  position: relative;
+  max-width: 100%;
+}
+.frameGroup,
+.imageAndDescription,
+.teamMemberBio {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  display: grid;
+  gap: 43px;
+  grid-template-columns: repeat(3, minmax(241px, 1fr));
+  z-index: 3;
+}
+.imageAndDescription,
+.teamMemberBio {
+  display: flex;
+}
+.teamMemberBio {
+  flex: 1;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  background-color: #191919;
+  padding: 43px 42px 38px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.imageAndDescription {
+  align-self: stretch;
+  position: relative;
+}
+.advisor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 114px;
+}
+.advisorInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 0 20px;
+}
+.advisorProfilesChild {
+  height: 479px;
+  width: 1134px;
+  position: relative;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  background-color: #191919;
+  display: none;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 43px;
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(241px, 1fr));
+  z-index: 3;
+}
+.advisorInfoParent,
+.advisorProfiles {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.advisorProfiles {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 43px 42px 38px;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.advisorInfoParent {
+  flex-direction: column;
+  gap: 24px;
+  font-size: 32px;
+}
+.advisorInfoParent,
+.imageContainer,
+.imageContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.imageContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 94px;
+}
+.imageContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 72px 0 74px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 67px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 33px;
+  color: #fff;
+  font-family: Inter;
+}
+.team,
+.teamInner {
+  display: flex;
+  box-sizing: border-box;
+}
+.teamInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 80px;
+  max-width: 100%;
+}
+.team {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 62px 0 0;
+  gap: 92px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .advisorProfiles,
+  .teamMemberBio {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+  .imageContainer {
+    gap: 47px;
+  }
+  .imageContainerWrapper {
+    padding-left: 37px;
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frameContainer,
+  .frameGroup {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(241px, 417px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourTeam {
+    font-size: 26px;
+  }
+  .frameGroup {
+    gap: 21px;
+    grid-template-columns: minmax(241px, 1fr);
+  }
+  .teamMemberBio {
+    padding-top: 28px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+  .advisor {
+    font-size: 26px;
+  }
+  .frameContainer {
+    gap: 21px;
+    grid-template-columns: minmax(241px, 1fr);
+  }
+  .advisorProfiles {
+    padding-top: 28px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+  .imageContainer {
+    gap: 23px;
+  }
+  .frameParent {
+    gap: 33px;
+  }
+  .teamInner {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .team {
+    gap: 46px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourTeam {
+    font-size: 20px;
+  }
+  .vikasKatragadda {
+    font-size: 19px;
+  }
+  .socialLinkContainer {
+    flex-wrap: wrap;
+  }
+  .unsplash8yg31xn4dswParent {
+    height: auto;
+    min-height: 398;
+  }
+  .advisor {
+    font-size: 19px;
+  }
+  .frameParent {
+    gap: 17px;
+  }
+  .team {
+    gap: 23px;
+  }
+}

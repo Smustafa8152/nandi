@@ -1,0 +1,210 @@
+.asset11,
+.portfolio {
+  position: relative;
+  z-index: 1;
+}
+.asset11 {
+  height: 35px;
+  width: 279px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.portfolio {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+}
+.portfolioWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.ourFocus {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 89px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.ourFocusWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.founders {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 82px;
+  z-index: 1;
+}
+.foundersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.investors {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 1;
+}
+.investorsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.team {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 48px;
+  z-index: 1;
+}
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.news {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+  z-index: 1;
+}
+.newsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 6px 0 0;
+}
+.navigationLinksChild {
+  height: 38px;
+  flex: 1;
+  z-index: 1;
+}
+.navigationLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.asset11Parent,
+.navigationLinksWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigationLinksWrapper {
+  width: 704px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.asset11Parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Inter;
+}
+.foundersWorking {
+  color: #fd5104;
+}
+.weInvestInContainer {
+  margin: 0;
+  width: 999px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.weInvestInResilientFounderWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.weInvestInResilientFounderWrapper {
+  width: 1277px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 123px;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    gap: 61px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navigationLinks {
+    display: none;
+  }
+  .navigationLinksWrapper {
+    width: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weInvestInContainer {
+    font-size: 38px;
+  }
+  .frameParent {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weInvestInContainer {
+    font-size: 29px;
+  }
+  .frameParent {
+    gap: 15px;
+  }
+}

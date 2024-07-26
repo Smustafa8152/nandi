@@ -1,0 +1,169 @@
+.imagePlaceholderChild,
+.imagePlaceholderItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 569px;
+  height: 357px;
+  object-fit: cover;
+}
+.imagePlaceholderItem {
+  top: 155px;
+  left: 70px;
+  z-index: 1;
+}
+.imagePlaceholder {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameWrapper,
+.imagePlaceholderWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imagePlaceholderWrapper {
+  align-self: stretch;
+  height: 512px;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 11px 0 0;
+  box-sizing: border-box;
+  min-width: 415px;
+  max-width: 100%;
+}
+.whoWeAre {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.weAreA {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.whatWeDo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.ourMissionIs {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ebebeb;
+}
+.whatWeDoParent {
+  align-self: stretch;
+  gap: 32px;
+  font-size: 40px;
+  color: #fff;
+}
+.weAreADedicatedTeamOfBitParent,
+.whatWeDoParent,
+.whoWeAreParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weAreADedicatedTeamOfBitParent {
+  align-self: stretch;
+  gap: 38px;
+  font-size: 16px;
+  color: #ebebeb;
+}
+.whoWeAreParent {
+  width: 492px;
+  gap: 32px;
+  min-width: 492px;
+  max-width: 100%;
+}
+.frameParent,
+.naandiVenturesLandingPageOInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: center;
+  gap: 71px;
+}
+.naandiVenturesLandingPageOInner {
+  width: 1360px;
+  justify-content: flex-end;
+  padding: 0 79px 97px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .naandiVenturesLandingPageOInner {
+    padding-left: 39px;
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .whoWeAreParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .whatWeDo,
+  .whoWeAre {
+    font-size: 32px;
+  }
+  .whatWeDoParent {
+    gap: 16px;
+  }
+  .weAreADedicatedTeamOfBitParent {
+    gap: 19px;
+  }
+  .whoWeAreParent {
+    gap: 16px;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 35px;
+  }
+  .naandiVenturesLandingPageOInner {
+    padding-bottom: 63px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatWeDo,
+  .whoWeAre {
+    font-size: 24px;
+  }
+  .frameParent {
+    gap: 18px;
+  }
+}

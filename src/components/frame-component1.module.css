@@ -1,0 +1,121 @@
+.frameChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 898px;
+  max-height: 100%;
+  width: 764px;
+  z-index: 1;
+}
+.bg,
+.frameChild,
+.layer2Icon {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  background-color: #fd5104;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.layer2Icon {
+  top: 50px;
+  left: 115px;
+  width: 238px;
+  height: 35.7px;
+  object-fit: contain;
+  z-index: 3;
+}
+.founders,
+.investors,
+.news,
+.ourFocus,
+.portfolio,
+.team {
+  position: absolute;
+  top: 56.8px;
+  left: 459px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 3;
+}
+.founders,
+.investors,
+.news,
+.ourFocus,
+.team {
+  left: 570px;
+  min-width: 89px;
+}
+.founders,
+.investors,
+.news,
+.team {
+  left: 695px;
+  min-width: 82px;
+}
+.investors,
+.news,
+.team {
+  left: 813px;
+  min-width: 81px;
+}
+.news,
+.team {
+  left: 930px;
+  min-width: 48px;
+}
+.news {
+  left: 1014px;
+  min-width: 49px;
+}
+.breadcrumbsListIcon {
+  position: absolute;
+  top: 55.2px;
+  left: 1169px;
+  width: 25.2px;
+  height: 25.2px;
+  z-index: 3;
+}
+.breadcrumbsListIcon1,
+.breadcrumbsListIcon2,
+.breadcrumbsListIcon3 {
+  position: absolute;
+  top: 55.2px;
+  left: 1205px;
+  width: 25.2px;
+  height: 25.2px;
+  z-index: 3;
+}
+.breadcrumbsListIcon2,
+.breadcrumbsListIcon3 {
+  left: 1241px;
+}
+.breadcrumbsListIcon3 {
+  left: 1277px;
+}
+.footer,
+.frameParent {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.footer {
+  top: 622px;
+  background-color: #fd5104;
+  height: 142px;
+  z-index: 2;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Inter;
+}
+.frameParent {
+  height: 764px;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+}

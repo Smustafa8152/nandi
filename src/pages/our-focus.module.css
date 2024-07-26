@@ -1,0 +1,466 @@
+.asset11 {
+  height: 35px;
+  width: 279px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.portfolio {
+  left: 0;
+  color: inherit;
+  min-width: 75px;
+}
+.founders,
+.investors,
+.news,
+.ourFocus1,
+.portfolio,
+.team {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.ourFocus1 {
+  left: 97px;
+  color: #ff4e00;
+  min-width: 89px;
+  white-space: nowrap;
+}
+.founders,
+.investors,
+.news,
+.team {
+  left: 208px;
+  color: inherit;
+  min-width: 82px;
+}
+.investors,
+.news,
+.team {
+  left: 312px;
+  min-width: 81px;
+}
+.news,
+.team {
+  left: 415px;
+  min-width: 48px;
+}
+.news {
+  left: 485px;
+  min-width: 49px;
+}
+.navigationLinks {
+  margin: 0;
+  align-self: stretch;
+  height: 22px;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Inter;
+}
+.navigationLinksWrapper {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 38px;
+  width: 142px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.asset11Parent,
+.frameParent,
+.frameWrapper,
+.primaryNavigation {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 704px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.asset11Parent,
+.primaryNavigation {
+  flex-direction: row;
+}
+.asset11Parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.primaryNavigation {
+  width: 1421px;
+  justify-content: flex-end;
+  padding: 0 63px 15px;
+  box-sizing: border-box;
+}
+.ourFocus2 {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fd5104;
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+}
+.ourFocusWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 8.5px 9px;
+  background-color: #fff1eb;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.ourFocusWrapper:hover {
+  background-color: #e6d9d1;
+}
+.ourFocus3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameParent1 {
+  gap: 22px;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.frameItem {
+  width: 527px;
+  position: relative;
+  border-radius: 12px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.atNaandiVentures,
+.beyondInvestmentWeAre,
+.furthermoreWeActivelyOffer {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.investmentDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+}
+.investmentDescriptionWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.investmentDescriptionWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+  min-width: 357px;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 56px;
+}
+.readyToTake {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.clickTheLink,
+.readyToTake {
+  position: relative;
+  letter-spacing: -1px;
+}
+.clickTheLinkBelowWrapper {
+  width: 427px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 24px;
+}
+.frameInner {
+  align-self: stretch;
+  width: 196px;
+  position: relative;
+}
+.frameWrapper3 {
+  width: 427px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.readyToTakeTheNextStepParent {
+  align-self: stretch;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.12);
+  border-radius: 35px;
+  background-color: #24120a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 48.5px 20px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+  font-size: 33px;
+}
+.frameParent3,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  flex: 1;
+  flex-direction: column;
+  gap: 75px;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.founderNews {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.newsHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+}
+.newsHeaderParent,
+.newsItems {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.newsItems {
+  display: grid;
+  flex-direction: row;
+  gap: 34px;
+  grid-template-columns: repeat(3, minmax(267px, 1fr));
+}
+.newsHeaderParent {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  font-size: 33px;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: 130px;
+}
+.frameGroup,
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 72px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 71px;
+  text-align: left;
+  font-size: 33px;
+  color: #fff;
+  font-family: Inter;
+}
+.content,
+.ourFocus {
+  display: flex;
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 80px;
+  max-width: 100%;
+}
+.ourFocus {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 62px 0 0;
+  gap: 95px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .frameItem {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .frameParent3 {
+    gap: 37px;
+  }
+  .frameParent2 {
+    gap: 65px;
+  }
+  .frameWrapper1 {
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navigationLinksWrapper {
+    display: none;
+  }
+  .newsItems {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(267px, 463px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .primaryNavigation {
+    padding-left: 31px;
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+  .ourFocus3 {
+    font-size: 26px;
+  }
+  .investmentDescription {
+    gap: 18px;
+  }
+  .investmentDescriptionWrapper {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: 28px;
+  }
+  .readyToTake {
+    font-size: 26px;
+  }
+  .frameParent3 {
+    gap: 19px;
+  }
+  .founderNews {
+    font-size: 26px;
+  }
+  .newsItems {
+    gap: 17px;
+    grid-template-columns: minmax(267px, 1fr);
+  }
+  .newsHeaderParent {
+    gap: 27px;
+  }
+  .frameParent2 {
+    gap: 32px;
+  }
+  .frameGroup {
+    gap: 35px;
+  }
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .ourFocus {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourFocus3,
+  .readyToTake {
+    font-size: 20px;
+  }
+  .clickTheLink {
+    font-size: 19px;
+  }
+  .founderNews {
+    font-size: 20px;
+  }
+  .frameParent2 {
+    gap: 16px;
+  }
+  .frameGroup {
+    gap: 18px;
+  }
+  .ourFocus {
+    gap: 24px;
+  }
+}

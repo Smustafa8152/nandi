@@ -1,0 +1,75 @@
+.frameChild,
+.ourMissionAt {
+  position: relative;
+  z-index: 1;
+}
+.ourMissionAt {
+  align-self: stretch;
+  line-height: 150%;
+  font-weight: 500;
+}
+.frameChild {
+  height: 52px;
+  width: 196px;
+}
+.frameItem {
+  height: 52px;
+  flex: 1;
+  min-width: 174px;
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameParent {
+  width: 481px;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+.frameContainer {
+  align-self: stretch;
+  padding: 0 20px 0 25px;
+  box-sizing: border-box;
+}
+.frameWrapper,
+.ourMissionAtNaandiVenturesParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ourMissionAtNaandiVenturesParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 73px;
+}
+.frameWrapper {
+  width: 1276px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 77px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .ourMissionAtNaandiVenturesParent {
+    gap: 36px;
+  }
+  .frameWrapper {
+    padding-left: 38px;
+    padding-right: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourMissionAtNaandiVenturesParent {
+    gap: 18px;
+  }
+}

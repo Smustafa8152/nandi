@@ -1,0 +1,65 @@
+.frameChild {
+  height: 143.2px;
+  width: 565px;
+  position: relative;
+  box-shadow: 0 8px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.collegeIcon {
+  height: 68px;
+  width: 68px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.universityConnect {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.rectangleParent,
+.universityConnectWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19px 0 0;
+}
+.rectangleParent {
+  flex: 0.9829;
+  box-shadow: 0 8px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 38px 52px 37.2px;
+  box-sizing: border-box;
+  gap: 43px;
+  min-width: 367px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1100px) {
+  .rectangleParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .universityConnect {
+    font-size: 19px;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}

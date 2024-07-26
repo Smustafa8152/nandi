@@ -1,0 +1,40 @@
+.entityType {
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+}
+.entityTypeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+}
+.formFieldsRowsChild {
+  border: 1px solid #c8bebe;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  border-radius: 25px;
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.formFieldsRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: 20px;
+  color: #e4e4e4;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .entityType {
+    font-size: 16px;
+  }
+}

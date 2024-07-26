@@ -1,0 +1,42 @@
+.briefDescriptionAbout {
+  position: relative;
+}
+.briefDescriptionAboutTheCoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.formFieldsRowsChild {
+  border: 1px solid #c8bebe;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 196px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: 25px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.formFieldsRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #e4e4e4;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .briefDescriptionAbout {
+    font-size: 16px;
+  }
+}
